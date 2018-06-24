@@ -1,0 +1,16 @@
+/c game.player.get_inventory(defines.inventory.player_armor).insert({name='power-armor-mk2', count=1})
+armor = game.player.get_inventory(defines.inventory.player_armor).find_item_stack('power-armor-mk2')
+armor.grid.put{name='fusion-reactor-equipment'}
+armor.grid.put{name='fusion-reactor-equipment'}
+armor.grid.put{name='energy-shield-mk2-equipment'}
+armor.grid.put{name='energy-shield-mk2-equipment'}
+armor.grid.put{name='exoskeleton-equipment'}
+armor.grid.put{name='exoskeleton-equipment'}
+armor.grid.put{name='exoskeleton-equipment'}
+armor.grid.put{name='exoskeleton-equipment'}
+armor.grid.put{name='exoskeleton-equipment'}
+armor.grid.put{name='personal-roboport-equipment'}
+armor.grid.put{name='personal-roboport-equipment'}
+armor.grid.put{name='personal-roboport-equipment'}
+armor.grid.put{name='personal-roboport-equipment'}
+armor.grid.put{name='personal-roboport-equipment'}
