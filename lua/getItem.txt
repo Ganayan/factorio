@@ -1,0 +1,1 @@
+/c game.player.insert{name='power-armor-mk2', count=10}
